@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Box model</title>
+	 <style>
+	 
+	    .box{ padding-top:20px;
+		      padding-left:20px;
+			  padding-right:20px;
+			  padding-bottom:20px;
+			  border-top:solid 6px black;
+			  border-right:solid 6px black;
+		      border-left:solid 6px black;
+			  border-bottom:solid 6px black;
+			  margin-bottom:8px;
+			  margin-top:8px;
+			  margin-right:50px;
+			  margin-left:50px;
+			}
+	    .img1{ color:white;
+		       background-image:url('Photos/img1.jpg');
+		       height:500px;
+			   text-align:center;
+			   background-position:center-bottom;
+			   background-size:cover;
+			   background-attachment:fixed;
+		      }
+		.img2{ color:white;
+		       background-image:url('Photos/img3.jpg');
+			   height:500px;
+			   text-align:center;
+			   background-position:center-top;
+			   background-size:cover;
+			   background-attachment:scroll;
+		      }
+		.color1{ color:white;
+		       background-image:linear-gradient(to right,red,yellow);
+		       height:200px;
+			   }
+		.color2{ color:white;
+		       background-image:linear-gradient(to right,red,yellow,blue,green);
+		       height:200px;
+			   }
+	    .color3{ color:white;
+		       background-image:repeating-linear-gradient(red,yellow 10%,blue 20%,green 30%);
+		       height:200px;
+			   }
+	    .sd1{ color:white;
+		       background-image:linear-gradient(#000,rgba(150,11,130,0.8)),url('Photos/shadow.jpg');
+			   
+			   }
+	 </style>
+</head>
+<body>
+     <div class="box img1">
+	    <h1>background-image</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+	 <div  class="box img2">
+	    <h1>background-image</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+	 <div  class="box color1">
+	    <h1>background-color</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+	 <div  class="box color2">
+	    <h1>background-Multi color</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+	 <div  class="box color3">
+	    <h1>background-Repeat Colors</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+	 <div  class="box sd1">
+	    <h1>background-shadow</h1>
+		<p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+     </div>
+</body>
+
+</html>
